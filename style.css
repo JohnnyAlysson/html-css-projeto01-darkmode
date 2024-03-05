@@ -1,17 +1,21 @@
 body {
   font-family: "Open Sans", sans-serif;
-
+  background-image: url(./arquivos/bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   text-align: center;
   margin: 0;
 }
 
 #info {
-  width: 348px;
-  margin: 0;
+  width: 592px;
+  margin: 0 auto 72px;
 }
 
 #info img {
-  margin-bottom: 72px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 h1 {
@@ -19,12 +23,44 @@ h1 {
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
+  color: #7d7987;
+  margin-bottom: 32px;
 }
 
 h1 span {
   font-weight: bold;
 }
 
-span {
+p {
+  color: #7d7987;
+
+  font-size: 14px;
+  line-height: 28px;
+
+  margin-bottom: 100px;
+}
+
+span,
+a {
   color: #c64132;
+  font-weight: bold;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+.line {
+  width: 568px;
+  height: 0;
+
+  margin: 0 auto 12px;
+
+  border: 1px #eceff2 dashed;
+}
+
+#logo {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
 }
