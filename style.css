@@ -8,6 +8,38 @@ body {
   margin: 0;
 }
 
+#toggle_dark_mode{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 0.6rem;
+  color:white;
+  background-color: #c64132;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+#toggle_dark_mode:hover{
+  background-color: #f5513f;
+  transition: ease-in-out 0.5s;
+}
+
+.darkmode{
+  background-color: #000000b0;
+  transition: ease-in-out 1s;
+}
+
+.darkmode h1, 
+.darkmode p{
+  color: white;
+}
+
+.darkmode span,
+.darkmode a{
+  color: #ef7e4d;
+}
+
 #info {
   width: 592px;
   margin: 0 auto 72px;
@@ -63,4 +95,8 @@ a {
   position: fixed;
   bottom: 12px;
   right: 12px;
+}
+
+#footer{
+  margin-bottom: 10px;
 }
